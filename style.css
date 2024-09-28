@@ -1,0 +1,822 @@
+@charset "UTF-8";
+html {
+    font-size: 100%;
+}
+p {
+  color: #333;
+}
+
+body {
+    color: #FFF;
+    margin: 0 auto;
+    padding: 0;
+    text-align: center;
+    font-size: 0.9rem;
+}
+body {
+  overflow-x: hidden;
+}
+a {
+    text-decoration: none;
+}
+img {
+    width: 100%;
+    height: auto;
+}
+li {
+    list-style: none;
+}
+main  {
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+
+
+
+.site-title {
+    line-height: 1px;
+  }
+  .site-title a {
+    display: block;
+  }
+  .sec-title {
+    font-size: 1.5rem;
+    text-align: center;
+    margin-bottom: 65px;
+  }
+
+  
+
+/*-------------------------
+ヘッダー
+-------------------------*/
+#header {
+  font-family: "Rajdhani", sans-serif;
+  font-weight: bold;
+  display: flex;
+  top: 0;
+  justify-content: center;
+  align-items: center;
+  background-color: #FFF;
+  margin: 0 auto;
+  padding: 0 3%;
+  position: fixed;
+  z-index: 9999;
+  width: 100%;
+  box-shadow: 0px 10px 10px -10px rgba(255,192,203,1);
+  color: #333;
+  }
+
+  #header ul {
+    display: flex;
+    padding: 10px 0;
+    margin: 0 auto;
+  }
+  #header li {
+    text-align: center;
+    font-size: 0.9rem;
+    margin-left: 80px;
+  }
+  #header li a {
+    color: #333;
+  }
+  #header li a:hover {
+    opacity: 0.7;
+  }
+
+  /*--------------------------
+  メインヴィジュアル
+  -------------------------*/
+
+.parallax {
+  /*パララックス効果*/
+  background-image: url("/img/mainvisual.jpg");
+  height: 600px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+section,section .top-profile{
+  height: 570px;
+  padding: 50px;
+  background: #FFF;
+}
+.parallax02 {
+  /*パララックス効果*/
+  background-image: url("/img/webdesign.jpg");
+  height: 570px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.parallax03 {
+  /*パララックス効果*/
+  background-image: url("/img/mainvisual.jpg");
+  height: 720px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+  .example {
+    margin-bottom: 80px;
+  }
+  .example {
+    height: 600px;
+    object-fit: cover;
+    width: 1000px;
+    margin: 0 auto;
+    position: relative;
+  }
+  .top-word {
+    font-size: 6rem;
+    font-family: "Edu VIC WA NT Beginner", cursive;
+    color: #333;
+    width: 100%;
+    letter-spacing: 0.2em;
+    text-align: right;
+    padding-top: 140px;
+  }
+  .example p1 {
+    position: static;
+    font-size: 6rem;
+    font-family: "Edu VIC WA NT Beginner", cursive;
+    color: #333;
+   letter-spacing: 0.2em;
+  }
+  .example p1 {
+    font-size: 6rem;
+    font-family: "Edu VIC WA NT Beginner", cursive;
+    color: #333;
+   letter-spacing: 0.2em;
+  }
+  .example p2 {
+    display: block;
+    margin: 0;
+    margin-top: -5%;
+  }
+  .example p3 {
+    font-size: 1.5rem;
+    font-family: "Rajdhani", sans-serif;
+    color: #333;
+    white-space: nowrap;
+   display: block;
+    margin: 0% 5% 10%;
+  }
+  .example p4 {
+    display: block;
+    margin: 0;
+    margin-top: -2%;
+  }
+  .font_space p2,p3,p4{
+    letter-spacing: 0.2em;
+  }
+  .example p5 {
+    font-size: 0.9rem;
+    letter-spacing: -0.05em;
+	  margin-top: -10px;
+  }
+  .example p6 {
+    font-size: 0.8rem;
+    margin-top: -70px;
+  }
+
+ /*--------------------------
+  Profile
+  ----------------------------*/
+  #profile img {
+    margin: 0 15px -10px 10px;
+    width: 48px;
+    }
+    #profile h2 {
+      font-size: 3rem;
+        font-family: "Rajdhani", sans-serif;
+        color: #333;
+        margin-bottom: 10px;
+        text-align: center;
+        padding-top: 0;
+    }
+    .container1 {
+      display: flex;
+      align-content: center;
+      margin-bottom: 60px;
+    }
+    #profile .image img{
+      width: 200px;
+      flex-shrink: 0;
+      margin-left: 50%;
+    }
+    
+    #profile .text {
+      font-family: "IBM Plex Sans JP", sans-serif;
+      font-weight: 100;
+      width:70%;
+      padding: 3% 0 20% 20%;
+    }
+    a.btn_10 {
+      display: flex;
+      justify-content: right;
+      margin: 10% 60% 0;
+      width: 40%;
+      height: 20%;
+      box-sizing: border-box;
+      background: #FFF;
+      position: relative;
+    }
+    a.btn_10 span {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      height: 50px;
+    border-radius: 80px;
+      background: #FFF;
+      box-sizing: border-box;
+      color: #605ccc;
+      font-size: 14px;
+      font-weight: bold;
+      letter-spacing: 0.1em;
+      text-decoration: none;
+      box-shadow: 0px 5px 12px #ffccef, -6px -6px 12px #fff;
+      position: absolute;
+      top: -10px;
+      left: 0;
+      transition-duration: 0.1s;
+    }
+    a.btn_10:hover span {
+      left: 0;
+      top: 0;
+      box-shadow: 0 0 4px #605ccc, -2px -2px 4px #fff;
+    }
+    
+
+
+/*---------------------------
+web design
+---------------------------*/
+#skill img {
+  margin: 0 15px -10px 10px;
+  width: 48px;
+  }
+  #skill h2 {
+    font-size: 3rem;
+      font-family: "Rajdhani", sans-serif;
+      color: #333;
+      margin-bottom: 10px;
+      text-align: center;
+      padding-top: 50px;
+  }
+
+
+   /*コンテンツ*/
+  h2 {
+  font-size: 3rem;
+    font-family: "Rajdhani", sans-serif;
+    color: #333;
+    margin-bottom: 10px;
+    text-align: center;
+    padding-top: 0;
+}
+h3 {
+  font-size: 2rem;
+    font-family: "Rajdhani", sans-serif;
+    color: #333;
+    margin-bottom: 10px;
+    text-align: center;
+    padding-top: 0;
+    display: block;
+    margin: 0% -22%;
+    margin-top: 8%;
+}
+.skills {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  height: 300px;
+  background-image: url(/img/dia.png);
+  background-position: right -5% center;
+  background-size: 560px;
+}
+.text1 {
+ white-space: nowrap;
+ width: 10%;
+ font-family: "IBM Plex Sans JP", sans-serif;
+      font-weight: 100;
+}
+.text1 h2 {
+  font-weight: 100;
+}
+.text1 h3 {
+  margin: -10px;
+  padding: 0 10%;
+  font-weight: 100;
+}
+.skills li {
+  width: 270px;
+  align-items: center;
+}
+.text2 {
+  font-family: "IBM Plex Sans JP", sans-serif;
+      font-weight: 100;
+      letter-spacing: 0.2em;
+      padding: 0 2px;
+      margin: 0 10px;
+}
+
+/*==================================================
+スライダー
+===================================*/
+ .slider {
+  position:relative;
+z-index: 1;
+height: 100vh;
+}
+
+.slider-wrapper {
+  margin-top: 5%;
+}
+
+
+.slider-item {
+  width: 100%;
+  height:100vh;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+/*矢印の設定*/
+
+.slick-prev, 
+.slick-next {
+  position: absolute;
+z-index: 3;
+  top: 20%;
+  outline: none;/*クリックをしたら出てくる枠線を消す*/
+  border-top: 2px solid #f2c7e7;/*矢印の色*/
+  border-right: 2px solid #f2c7e7;/*矢印の色*/
+  height: 25px;
+  width: 25px;
+}
+
+.slick-prev {/*戻る矢印の位置と形状*/
+  left:2.5%;
+  transform: rotate(-135deg);
+}
+
+.slick-next {/*次へ矢印の位置と形状*/
+  right:2.5%;
+  transform: rotate(45deg);
+}
+
+/*ドットナビゲーションの設定*/
+
+.slick-dots {
+position: relative;
+z-index: 3;
+  text-align:center;
+margin:0 50%;/*ドットの位置*/
+}
+
+.slick-dots li {
+  display:inline-block;
+margin:0 8px;
+}
+
+.slick-dots button {
+  color: transparent;
+  outline: none;
+  width:8px;/*ドットボタンのサイズ*/
+  height:8px;/*ドットボタンのサイズ*/
+  display:block;
+  border-radius:55%;
+  background:#f2c7e7;/*ドットボタンの色*/
+}
+
+.slick-dots .slick-active button{
+  background:#f598dc;/*ドットボタンの現在地表示の色*/
+}
+
+
+/*========= レイアウトCSS ===============*/
+#slider ul{
+margin:0;
+padding: 0;
+list-style: none;
+}
+
+#slider a:hover,
+a:active{
+text-decoration: none;
+}
+
+#slider .slider-wrapper{
+position: relative;
+}
+
+ /*------------------------
+work
+ -----------------------*/ 
+ #work img {
+  margin: 0 15px -10px 10px;
+  width: 48px;
+  }
+ #work h2 {
+  font-size: 3rem;
+    font-family: "Rajdhani", sans-serif;
+    color: #333;
+    margin-bottom: 10px;
+    text-align: center;
+    padding-top: 1px;
+}
+
+
+
+    
+/*---------------------------
+contact
+---------------------------*/
+#contact img {
+  margin: 0 15px -10px 10px;
+  width: 48px;
+  }
+ #contact h2 {
+  font-size: 3rem;
+    font-family: "Rajdhani", sans-serif;
+    color: #333;
+    margin-bottom: 10px;
+    text-align: center;
+    padding-top: 50px;
+}
+.txt-sec {
+margin: 0 auto;
+  width: 1000px;
+}
+#form{
+  height: 100%; 
+  width: 700px;
+  overflow: hidden;
+  position: relative;
+  margin: 0 10% 15% 15%;
+
+}
+form{
+  margin: 0 auto;
+  width: 500px;
+  padding-top: 7px;
+  padding-left: 50px;
+  color: #f598dc;
+  position: relative;
+}
+
+label, input, textarea{
+  display: block; 
+}
+label {
+  text-align: left;
+}
+input, textarea{
+  width: 400px; 
+  border: none;
+  border-radius: 20px;
+  outline: none;
+  padding: 7px;
+  font-size: 1em;
+  color: #676767;
+  transition: border 0.5s;
+  -webkit-transition: border 0.5s;
+  -moz-transition: border 0.5s;
+  -o-transition: border 0.5s;
+  background-color: #faf2f7;  
+  -webkit-box-sizing:border-box;
+  -moz-box-sizing:border-box;
+  box-sizing:border-box;
+}
+input:focus, textarea:focus{
+  border: solid 1px #1d66cc;  
+}
+
+textarea{
+  height: 100px;  
+  resize: none; 
+  overflow: auto;
+}
+.box {
+  display: flex;
+  width: 50%;
+}
+input[type="submit"]{
+  font-family: "Rajdhani", sans-serif;
+  font-weight: bold;
+  background-color: #ffccef;
+  color: white;
+  width: 144px;
+  height: 50px;
+  cursor: pointer;
+  margin: 30px -50px 10px 120px;
+  font-size: 1.29em;
+  -webkit-transition: background-color 0.5s;
+  -moz-transition: background-color 0.5s;
+  -o-transition: background-color 0.5s;
+  transition: background-color 0.5s;
+}
+input[type="submit"]:hover{
+  background-color: #1d66cc;
+}
+label{
+  font-size: 1em;
+  margin-top: 10px;
+  padding-left: 20px;
+  font-family: "Rajdhani", sans-serif;
+}
+.formgroup, .formgroup-active, .formgroup-error{
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  background-size: 10.5%;
+  transition: background-image 0.7s;
+  -webkit-transition: background-image 0.7s;
+  -moz-transition: background-image 0.7s;
+  -o-transition: background-image 0.7s;
+  width: 566px;
+  padding-top: 2px;
+}
+
+.formgroup{
+  background-image: url('http://www.geertjanhendriks.nl/codepen/form/pixel.gif'); 
+}
+.formgroup-active{
+  background-image: url('http://www.geertjanhendriks.nl/codepen/form/octo.png');
+}
+.formgroup-error{
+  background-image: url('http://www.geertjanhendriks.nl/codepen/form/octo-error.png');
+  color: red;
+}
+#form p {
+text-align: center;
+margin-top: 10px;
+ }
+
+/*----------------------------------
+footer
+---------------------------------*/
+
+footer {
+  text-align: left;
+  color: #333;
+  background: #f2c7e7;
+  padding: 30px;
+ }
+
+
+/*------------------------------------------
+SP
+--------------------------------------------*/
+@media screen and (max-width: 750px) {
+   #header {
+    height: auto;
+    max-width: 100%;
+    flex-direction: column;
+   }
+
+   #header li {
+    font-size: 0.8rem;
+    margin-left: 20px;
+   }
+   #header li:first-child {
+    margin-left: 0;
+   }
+
+   .content {
+    flex-direction: column;
+   }
+   .content .img {
+    width: 100%;
+    margin-bottom: 10px;
+   }
+   .content .text {
+    width: 100%;
+    padding: 0;
+   }
+   .txt-sec {
+    width: 100%;
+   }
+
+
+   /*-----------------mv-------------------------*/
+   .example {
+    height: 600px;
+    object-fit: cover;
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+  }
+   .example p1 {
+    position: absolute;
+    font-size: 4rem;
+    font-family: "Edu VIC WA NT Beginner", cursive;
+    color: #333;
+    margin-top: 20%;
+   top: 19%;
+   right:10%;
+   letter-spacing: 0.2em;
+  }
+  .example p2 {
+    display: block;
+    margin: 25%;
+    margin-top: -14%;
+  }
+  .example p3 {
+    font-size: 1.5rem;
+    font-family: "Rajdhani", sans-serif;
+    color: #333;
+    white-space: nowrap;
+   display: block;
+    margin: -10% 1% -15%;
+  }
+  .example p4 {
+    display: block;
+    margin: 18%;
+    margin-top: 1%;
+  }
+  .font_space p2,p3,p4{
+    letter-spacing: 0.2em;
+  }
+  .example p5 {
+    font-size: 0.9rem;
+    letter-spacing: -0.05em;
+  }
+  .example p6 {
+    font-size: 0.8rem;
+    position: absolute;
+    right: -15%;
+    margin-top: 10%;
+  }
+
+  /*---------profile ------------------------*/
+  section {
+    height: 800px;
+    padding: 50px;
+    background: #FFF;
+  }
+  .container1 {
+    display: flex;
+    align-content: center;
+   margin-top: -20%;
+  }
+  #profile h2 {
+    font-size: 2rem;
+      font-family: "Rajdhani", sans-serif;
+      color: #333;
+      margin-bottom: 10px;
+      text-align: center;
+      padding-top: 0;
+  }
+
+  #profile img {
+    width: 50px;
+    }
+    #profile {
+      display: block;
+    }
+
+    #profile .image img{
+      width: 100%;
+      margin: 0 auto;
+      padding-top: 20%;
+    }
+
+    #profile .text {
+      font-family: "IBM Plex Sans JP", sans-serif;
+      font-weight: 100;
+      font-size: 0.9rem;
+      letter-spacing: -0.1em;
+       width: 100%;
+      margin: 5% 0 5% -10%;
+    }
+    a.btn_10 {
+      display: flex;
+      justify-content: center;
+      width: 80%;
+      height: 20%;
+      margin-left: -1%;
+      box-sizing: border-box;
+      background: #FFF;
+      position: relative;
+    }
+    a.btn_10 span {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      height: 30px;
+    border-radius: 60px;
+      background: #FFF;
+      box-sizing: border-box;
+      color: #605ccc;
+      font-size: 14px;
+      font-weight: bold;
+      letter-spacing: 0.1em;
+      text-decoration: none;
+      box-shadow: 0px 5px 12px #ffccef, -6px -6px 12px #fff;
+      position: absolute;
+      top: -10px;
+      left: 0;
+      transition-duration: 0.1s;
+    }
+    a.btn_10:hover span {
+      left: 0;
+      top: 0;
+      box-shadow: 0 0 4px #605ccc, -2px -2px 4px #fff;
+    }
+    
+     /*---------web design ------------------------*/
+
+     #skill h2 {
+      font-size: 2rem;
+        font-family: "Rajdhani", sans-serif;
+        color: #333;
+        margin-bottom: 10px;
+        text-align: center;
+        padding-top: 50px;
+    }
+    h3 {
+      font-size: 0.5rem;
+        font-family: "Rajdhani", sans-serif;
+        color: #333;
+        margin-bottom: 10px;
+        text-align: center;
+        padding-top: 0;
+        display: block;
+        margin: 0% -20%;
+        margin-top: 8%;
+    }
+    .skills {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      width: 100%;
+      height: 300px;
+      background-image: url(/img/dia.png);
+      background-position: right -40% center;
+      background-size: 400px;
+    }
+    .text1 {
+      white-space: nowrap;
+      width: 10%;
+      font-family: "IBM Plex Sans JP", sans-serif;
+           font-weight: 100;
+     }
+     .text1 h2 {
+       font-weight: 100;
+     }
+     .text1 h3 {
+       margin: -10px;
+       padding: 0 10%;
+       font-weight: 100;
+     }
+     .skills li {
+       width: 270px;
+       align-items: center;
+     }
+     .text2 {
+       font-family: "IBM Plex Sans JP", sans-serif;
+           font-weight: 100;
+           font-size: 0.8rem;
+           letter-spacing: 0.5em;
+           padding: 0 10px;
+           margin: 5px 20px;
+     }
+     .parallax02 {
+      height: 500px;
+     }
+
+
+ /*---------web design ------------------------*/
+#work h2 {
+  font-size: 2rem;
+}
+.work {
+  height: 550px;
+}
+
+/*---------contact ------------------------*/
+#contact h2 {
+  font-size: 2rem;
+}
+#form {
+ width: 100%;
+  display: block;
+  margin: 0 auto;
+}
+.contactform  p {
+  font-size: 0.8rem;
+}
+
+}

@@ -91,7 +91,7 @@ main  {
 
 .parallax {
   /*パララックス効果*/
-  background-image: url("img/mainvisual.jpg");
+  background-image: url("mainvisual.jpg");
   height: 600px;
   background-attachment: fixed;
   background-position: center;

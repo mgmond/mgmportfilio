@@ -850,7 +850,7 @@ SP
 }
 
 
-/*宮崎追加*/
+
 
 
 .swiper-container {
@@ -871,16 +871,7 @@ SP
 	 width: 100% !important;
     height: 300px !important;
 	object-fit: cover;
-}/*.
-.swiper-slide2 img{
-	 width: 100% !important;
-    height: 300px !important;
-	object-fit: cover;
-}.swiper-slide3 img{
-	 width: 100% !important;
-    height: 300px !important;
-	object-fit: cover;
-}*/
+}
   .swiper-pagination-bullet {
 background-color: #f2c7e7;
   }
